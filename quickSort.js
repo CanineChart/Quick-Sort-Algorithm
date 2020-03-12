@@ -15,7 +15,7 @@ function swap(arr, i, j) {
 }
 
 console.log(arr);
-console.log(arr.sort());
+console.log(arr.sort()); // Default Sort Method
 
 function partition(arr, left, right) {
 	let pivot = arr[Math.floor((left + right) / 2)];
